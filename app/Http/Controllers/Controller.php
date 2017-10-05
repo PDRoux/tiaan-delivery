@@ -15,7 +15,6 @@ class Controller extends BaseController
     public function test(){
       $input_data = request()->all();
       //Validation
-      //AIzaSyDkWWEdNKbbFUV3vH5i_Rv4GPyApMNHyU4
 
       return $input_data;
     }
